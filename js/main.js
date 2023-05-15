@@ -7,10 +7,10 @@ const randColor = () =>  {
 }
 
 const randPositionX = () =>  {
-    return Math.floor(Math.random()*widthX) + 'px';
+    return Math.floor(Math.random()*(widthX - 90)) + 'px';
 }
 const randPositionY = () =>  {
-    return Math.floor(Math.random()*heightY) + 'px';
+    return Math.floor(Math.random()*(heightY - 90)) + 'px';
 }
 
 function getRandColorForBlock() {
